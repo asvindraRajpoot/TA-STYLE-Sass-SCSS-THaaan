@@ -1,0 +1,317 @@
+
+.header-top{
+    background-color: $primary;
+    padding: .5rem;
+}
+.phone{
+    margin-right: 1rem;
+}
+
+.nav-list ul li{
+    margin-left: 1rem;
+}
+.header-bottom{
+    background-color: $secondary;
+   
+}
+
+.header-bottom li a{
+   
+  
+    color: #4A4A4A;
+    font-weight: bold;
+   
+}
+.header-bottom strong{
+    font-size: 1.7rem;
+    color: $primary;
+    font-weight: bold;
+    span{
+        color: $black;
+    }
+
+}
+
+.menu >li{
+    margin-left: 1rem;
+    padding: 1.5rem .3rem;
+    font-weight: bold;
+    &:hover{
+        color: $white;
+        background-color: $primary;
+    }
+}
+.menu li a:hover{
+    color: $white;
+}
+
+.sub-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.sub-menu-content{
+
+    display: none;
+    position:absolute;
+    min-width: 10rem;
+    // z-index: 1;
+    background-color: $secondary;
+   
+    padding: 0rem .5rem;
+    padding-bottom: 1rem;
+    padding-top: 1.2rem;
+    margin-top: 1.5rem;
+    left: -.01rem;
+    
+   
+}
+.sub-menu-content li a{
+    color:black;
+    
+    
+    &:hover{
+       
+        color: $gray;
+    }
+}
+
+.sub-menu:hover .sub-menu-content{
+    display: block;
+}
+
+
+
+
+
+
+
+.fa-angle-down{
+    margin-left: .7rem;
+}
+
+.hero {
+  
+    background-image: url(../image/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+   
+   
+    
+}
+
+
+.hero h1{
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top: 43%;
+    margin-bottom: 1rem;
+
+}
+ .hero button{
+    margin-top: 1rem;
+    width: 7rem;
+    height: 2.2rem;
+    padding: 0 1rem;
+    vertical-align: middle;
+    border: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.services{
+    padding: 2rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.services h3{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+.services p{
+    font-size: .999rem;
+    color: gray;
+}
+.services-box{
+   
+    margin-top: 3rem;
+}
+
+.services-box img{
+
+    width: 20%;
+}
+.consulting{
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 30%;
+    border: 1px solid $secondary;
+}
+.feature{
+    @extend .consulting
+}
+.finance{
+    @extend .consulting
+}
+
+.solutions{
+    background-color: $secondary;
+    padding-bottom: 2rem;
+}
+.solutions P{
+    color: $gray;
+    font-size: 1rem;
+}
+
+.solutions h2{
+    margin: 2rem 0;
+    padding-top: 2rem;
+ 
+}
+.position article{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    width: 100%;
+}
+.position-article{
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.position-article i{
+    font-size: 2rem;
+    color: $gray;
+}
+.position-article h2{
+    margin-top: 1rem;
+}
+.position-article p{
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: $gray;
+}
+
+.team{
+    width: 40%;
+
+}
+.team img{
+    width: 100%;
+}
+
+
+.request{
+    background-color: $primary;
+}
+.request article{
+    padding: 2rem;
+}
+.request h2{
+    color: $white;
+    font-size: 1.4rem;
+}
+.request p{
+    color: $white;
+    font-size: 1rem;
+}
+.request button{
+    color: $white;
+    border-color: $white;
+}
+
+.leader article{
+    width: 100%;
+}
+.leader .women{
+    width: 45%;
+}
+.women img{
+    width: 100%;
+}
+.leader-article{
+    width: 45%;
+}
+.leader{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.leader-article p{
+    color: $gray;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.clients{
+    background-color: $secondary;
+    padding: 2rem 0;
+}
+
+.clients fieldset{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.cleints-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.cleints-img img{
+   filter: grayscale(10.0);
+    width: 10%;
+
+    &:hover{
+        filter: none;
+    }
+
+}
+
+
+.footer{
+    padding: 2rem 0;
+    background-color:#343A40 ;
+}
+
+.footer h3{
+    font-weight: bold;
+    color: $gray;
+}
+.footer a{
+    font-size: .9rem;
+    margin-top: 1rem;
+    color: $gray;
+    &:hover{
+        color: $white;
+    }
+}
+
+.copyright{
+    margin: 2rem 0;
+    color: $gray;
+    font-size: .8rem;
+  
+}
+.nav-list-footer li a{
+    margin-right: 1rem;
+  
+}
+.copyright span{
+    color: $white;
+}
+
+.bars{
+    display: none;
+}
