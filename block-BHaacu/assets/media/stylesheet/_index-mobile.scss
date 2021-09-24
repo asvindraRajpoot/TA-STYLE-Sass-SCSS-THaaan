@@ -1,0 +1,75 @@
+@media screen and(max-width: 768px){
+
+
+
+.nav-list{
+    margin-top: 1rem;
+}
+
+.side-bar{
+    display: none;
+}
+.bars{
+    display: block;
+    font-size: 2rem;
+}
+.hero{
+   
+    background-size: 100% 60%;
+    background-position: center;
+   
+    background-repeat: no-repeat;
+    
+   
+   background-image: url(../image/banner-1.jpg);
+   h1{
+       font-size: 5rem;
+   }
+   p{
+       font-size: 1.6rem;
+   }
+ 
+}
+
+.hero button{
+    width: auto;
+    padding: .5rem 1rem;
+}
+
+.sm-width{
+    width: 100%;
+}
+
+.consulting{
+    padding-top: 2rem;
+   padding-bottom: 3rem;
+}
+.team{
+    margin: 2rem 0;
+}
+.leader .women{
+    width: 100%;
+}
+.clients{
+    padding: 3rem 0;
+}
+.cleints-img{
+    overflow: auto;
+
+    img{
+        width: 40%;
+        margin: 0 1rem;
+       
+        
+    }
+   
+}
+
+.follow{
+    margin-top: 1rem;
+}
+.nav-list-footer{
+    margin-top: 1rem;
+}
+    
+}
