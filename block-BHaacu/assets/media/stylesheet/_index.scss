@@ -58,7 +58,7 @@
     // z-index: 1;
     background-color: $secondary;
    
-    padding: 0rem .5rem;
+    padding: 0rem .3rem;
     padding-bottom: 1rem;
     padding-top: 1.2rem;
     margin-top: 1.5rem;
@@ -192,8 +192,8 @@
 
 }
 .position-article i{
-    font-size: 2rem;
-    color: $gray;
+    font-size: 4rem;
+    color: $primary;
 }
 .position-article h2{
     margin-top: 1rem;
@@ -312,6 +312,3 @@
     color: $white;
 }
 
-.bars{
-    display: none;
-}

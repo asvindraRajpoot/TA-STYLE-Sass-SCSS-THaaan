@@ -44,6 +44,83 @@ justify-content: flex-start;
    margin-left: 0;
 }
 
+.menu{
+    display: none;
+}
+
+.bars{
+    display: block;
+    i{
+        font-size: 2rem;
+    }
+}
+
+#toggle:checked~.menu{
+    display: inline-block;
+
+}
+
+
+
+.menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    padding-top: 10rem;
+    background-color: rgba(#78ac9a,.7);
+    li{
+        font-size: 1.7rem;
+        color: black;
+       
+    }
+    li>a{
+        color: black;
+    }
+    
+}
+.header-bottom {
+   
+   
+   
+    .brand{
+    position: fixed;
+    display: block;
+    z-index: 12;
+    left: 1rem;
+    top: 5.4rem;
+    
+    strong{
+        font-size: 2.5rem;
+        
+    }
+    
+   
+   
+    
+}
+.bars{
+    position: fixed;
+    display: block;
+    z-index: 12;
+    right: 1rem;
+    top: 5.4rem;
+    i{
+        font-size: 2.8rem;
+    }
+  
+   
+
+}
+}
+
+.service-hero{
+    margin-top: 3.6rem;
+}
 
 
 }
