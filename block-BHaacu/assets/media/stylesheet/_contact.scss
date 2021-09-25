@@ -1,0 +1,63 @@
+.contact-us{
+    margin-top: 0;
+    padding: 2rem 0;
+    background-color: rgb(236, 234, 234);
+}
+.address-box{ 
+    .icon-contact{
+    background-color: rgb(138, 129, 129);
+   
+}
+}
+
+.contact{
+    background-color: $white;
+    padding: 3rem 0;
+    p{
+        font-size: 1rem;
+        color: $gray;
+        margin: 1rem 0;
+    }
+
+  
+    fieldset{
+       padding: 2rem 0;
+    }
+    .map{
+        width: 45%;
+        iframe{
+            height: 20rem;
+        }
+    }
+    form{
+        width: 45%;
+        input{
+            display: flex;
+            width: 100%;
+            margin-bottom: 1rem;
+          
+            outline: 0;
+            padding: .8rem;
+            border: none;
+            border: .1rem solid gainsboro;
+            border-radius: .3rem;
+            border-bottom: none;
+        }
+        textarea{
+            padding: .8rem;
+            display: flex;
+            width: 100%;
+            border-color: gainsboro;
+            border-radius: .3rem;
+            
+        }
+        button{
+            margin: 1rem auto;
+            background-color: $primary;
+            color: $white;
+            
+        }
+      
+    }
+}
+

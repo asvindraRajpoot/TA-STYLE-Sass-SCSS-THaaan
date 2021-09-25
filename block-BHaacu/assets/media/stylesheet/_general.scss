@@ -1,0 +1,86 @@
+@import "var";
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-family: 'Archivo', sans-serif;
+}
+html{
+    font-size: 16px;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.flex{
+    display: flex;
+}
+.colom{
+    flex-direction: column;
+}
+.space-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+
+.margin{
+    margin: 0 15rem;
+}
+
+.btn{
+    width: 10rem;
+    height: 3rem;
+    padding: 1rem;
+    background-color: $primary;
+    border-radius: 1rem;
+    border: 0;
+}
+.read-more-btn{
+    border: 1px solid red;
+    background: 0;
+    padding: .5rem 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    color: red;
+  
+}
+img{
+    width: 100%;
+}
+
+a{
+    color: $white;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 900;
+}
+p{
+    font-size: 1.1rem;
+}
+.bars{
+    display: none;
+}
+
+#toggle{
+    display: none;
+}

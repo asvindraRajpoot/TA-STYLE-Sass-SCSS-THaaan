@@ -1,0 +1,39 @@
+.error{
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    h2{
+        text-align: center;
+    }
+    p{
+        color: $gray;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: .5rem;
+    }
+    
+    .address-box{
+        margin: 2rem 0;
+
+        .icon{
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            background-color: $secondary;
+            color: $primary;
+        }
+        strong{
+            display: block;
+            text-align: center;
+            margin: 1rem 0;
+            color: black;
+        }
+        address{
+            color: $gray;
+        }
+    }
+}
+
